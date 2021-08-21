@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: 'Bebas Neue', cursive; */
+
+    font-family: 'Ubuntu', sans-serif;
+                       
+}
+.nabvar li{
+    font-family: sans-serif;
+    font-weight: 500;
+    display:inline-block;
+    margin-left: 10px;
+}
+.nav li a {
+    color: #fff;
+    margin-right: 1.5rem;
+}
+.nav .name{
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    color: #fff;
+}
+.name span{
+    color: crimson;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    padding: 10px 0;
+    margin: 10px 0px 0px 10px;
+    z-index: 9999;
+}
+.home{
+    display: flex;
+    background: url("bg.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    /* filter: blur(1px); */
+}
+.containner{
+    display: inline-block;
+    margin: 20% 0 0 15%;
+    line-height: 77px;
+}
+.containner .text-1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    z-index: 999;
+}
+.containner .text-2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6rem;
+    font-weight: 600;
+}
+.containner .text-3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.containner .text-3 span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    color: crimson;
+    font-weight: 500;
+}
+.imgcontainer img{
+    display: inline-block;
+    max-width: 100%;
+    right: 1px;
+    /* box-shadow: 0 15px 25px rgba(0,0,0,0.1); */
+    /* It has To Be animated */
+    position: relative;
+    right: 20px;
+    /* border: 1px solid red; */
+}
+.imgcontainer{
+    max-width: 50%;
+    display: inline-block;
+    height: 700px;
+    align-self: center;
+    right: 20%;
+    /* border: 1px solid red; */
+}
+/* About me section starts */
+.content .profile img {
+    max-width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 15px 20px rgba(0,0,0,0.3);
+    border-top: 1px solid #fff;
+}
+.content .profile{
+    position: relative;
+    left: 7%;
+    margin: auto 20px;
+    width: 400px;
+    /* border: 1px solid red; */
+    
+}
+.content {
+    /* border: 1px solid red; */
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+.titlehead .title{
+    width: 170px;
+    padding-bottom: 0.1%;
+    font-size: 26px;
+    justify-content: center;
+    border-bottom: 3px solid crimson;
+    /* border-radius: 26px; */
+    text-align: center;
+    margin: 0 auto;
+}
+.textaboutme{
+    width: 35%;
+    text-align: justify;
+    /* border: 1px solid green; */
+    padding: 15px;
+    height: 30vh;
+    margin: auto 20px;
+}
+.textaboutme h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.textaboutme h3 span{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: crimson;
+}
+.textaboutme p{
+    line-height: 150%;
+}
+.highlight{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    font-weight: 600;
+}
+.contenner .cardcontenner .card1{
+    display: inline-block;
+    width: 25%;
+}
+.contenner .cardcontenner .card2{
+    display: inline-block;
+    width: 25%;
+}
+.contenner .cardcontenner .card3{
+    display: inline-block;
+    width: 25%;
+}
